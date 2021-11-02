@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.sukminkang12.viperarchitecture
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.psi.xml.XmlFile
