@@ -4,36 +4,28 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get known with the [template documentation][template].
-- [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
+## VIPER architecture for 'OWWL'
+![architecture](https://user-images.githubusercontent.com/39121338/140255206-bbef95d2-86fb-43c3-abc4-491f7115b6da.png)
 
-<!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+## Why i made it
+  In the past, each time the part contained in the red rectangular was composed (for each screen), a total of 4 files had to be produced. - Activity/Fragment, Presenter, Protocol, Router -
+  It was cumbersome to create 4 files each time, and there was a risk of human error.
+  So, I wrote boilerplate code for OWWL's own architecture and implemented it as a template plugin of Android Studio.
+  With this, I no longer have to look at the old code every time you build a screen!
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
-<!-- Plugin description end -->
+## Will update
+  1. Only current Activity are supported. I will improve it to support fragment as well.
+  2. Icon   
 
 ## Installation
-
-- Using IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "viper-architecture"</kbd> >
-  <kbd>Install Plugin</kbd>
-  
-- Manually:
-
   Download the [latest release](https://github.com/sukminkang12/viper-architecture/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
+<!-- Plugin description -->
+
+VIPER architecture template plugin for OWWL
+
+<!-- Plugin description end -->
 
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].
