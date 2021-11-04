@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
 ## VIPER architecture for 'OWWL'
-![architecture](https://user-images.githubusercontent.com/39121338/140255206-bbef95d2-86fb-43c3-abc4-491f7115b6da.png)
+![architecture](https://user-images.githubusercontent.com/39121338/140265801-cdb40c8c-d62f-460a-8f65-fbf68b20aedf.jpg)
 
 ## Why i made it
   In the past, each time the part contained in the red rectangular was composed (for each screen), a total of 4 files had to be produced. - Activity/Fragment, Presenter, Protocol, Router -
