@@ -7,7 +7,7 @@
 ## VIPER architecture for 'OWWL'
 ![architecture](https://user-images.githubusercontent.com/39121338/140265801-cdb40c8c-d62f-460a-8f65-fbf68b20aedf.jpg)
 
-## Why i made it
+## Why I made it
   In the past, each time the part contained in the red rectangular was composed (for each screen), a total of 4 files had to be produced. - Activity/Fragment, Presenter, Protocol, Router -
   It was cumbersome to create 4 files each time, and there was a risk of human error.
   So, I wrote boilerplate code for OWWL's own architecture and implemented it as a template plugin of Android Studio.
