@@ -34,6 +34,7 @@ class ${entityName}Activity : ${entityName}ViewProtocol() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ${layoutName.toCamelCase()}Binding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }
 """.trimIndent()
